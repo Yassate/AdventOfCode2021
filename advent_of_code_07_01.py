@@ -4,11 +4,10 @@ with open('inputs/input_07_01.txt') as f:
 
 positions.sort()
 median = positions[500]
-
 distances = [abs(x-median) for x in positions]
-print(sum(distances))
 
-#349812
+print(sum(distances))
+# 349812
 
 
 
